@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFA07A"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/addGrossary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Add Vegetables / सब्जियां डालें"
+        app:layout_constraintBottom_toTopOf="@+id/viewRequests"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/viewRequests"
+        android:layout_width="0dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="92dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:lineSpacingExtra="8sp"
+        android:text="View Requests from Vendors / विक्रेताओं से अनुरोध देखें"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:text="Hi! Farmer / नमस्ते! किसान"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/addGrossary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

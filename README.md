@@ -7,6 +7,7 @@ The main Objectives of E-Zi are:
 2.To digitilise agriculture sector
 3.To ensure more sale and more profit to farmers and vendors.
 4.To provide reasonable price to customers.
+5.To connect consumers with various vendors simultaneously.
 
 (This application is a prototype)
 

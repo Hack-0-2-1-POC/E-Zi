@@ -10,4 +10,5 @@ The main Objectives of E-Zi are:
 
 (This application is a prototype)
 
-hahaahah
+Technologies Used:
+Java and Sqlite(for backend)

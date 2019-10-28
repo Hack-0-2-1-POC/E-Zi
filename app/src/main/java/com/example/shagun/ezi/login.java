@@ -16,6 +16,7 @@ public class login extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // on create llifecycle method
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         btn=findViewById(R.id.loginbtn);
@@ -28,6 +29,7 @@ public class login extends AppCompatActivity {
                 Cursor myresult=null;
                 try {
                     SQLiteDatabase mydb = openOrCreateDatabase("hackdb", MODE_PRIVATE, null);
+                    // query to get user data from local sqlite database
                     String mystring="select * from usertable where name="+nametext.getText().toString()+"and phone="+passtext.getText().toString();
                     try {
                         myresult= mydb.rawQuery("select * from usertable where name=? and phone=?",new String[]{nametext.getText().toString(),passtext.getText().toString()});

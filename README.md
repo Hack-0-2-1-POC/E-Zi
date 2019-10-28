@@ -1,6 +1,8 @@
 # E-Zi
 E-Zi is an android application which provides a direct interface between farmers,vendors and consumers removing all the corrupted middlemen.
 It connects consumers with vendors which make shopping for vegetable /fruits from the local market in India very easy and less-time consuming.
+It tries to brigde the gap between all the three parties.
+It will bring revolution in the way agriculte sector works.
 
 The main Objectives of E-Zi are:
 1.To reduce gap between farmers and consumers.

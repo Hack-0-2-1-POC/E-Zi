@@ -13,3 +13,4 @@ The main Objectives of E-Zi are:
 
 Technologies Used:
 Java and Sqlite(for backend)
+Anrdoid UI libraries are also used

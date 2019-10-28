@@ -14,6 +14,7 @@ public class farmerrequest extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_farmerrequest);
         btn=findViewById(R.id.sendbutton);
+        // whatever data farmer request is saved on button click
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
